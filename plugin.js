@@ -18,10 +18,14 @@ function getChannelId() {
   return match ? match[1] : null;
 }
 
+let cachedList = null;   // lives outside — persists between calls
+
 async function isIndie(channelId) {
-  const response = await fetch(LIST_URL);
-  const list = await response.json();
-  return list.includes(channelId);
+  if (cachedList === null) {                    // first time only
+    const response = await fetch(LIST_URL);
+    cachedList = await response.json();          // remember it
+  }
+  return cachedList.includes(channelId);         // every later call: instant
 }
 
 function skipAd() {
@@ -41,6 +45,8 @@ async function checkAndBlock() {
 
   skipAd();  // everyone else → skip
 }
+
+
 
 window.addEventListener("yt-navigate-finish", checkAndBlock);
 
