@@ -12,7 +12,7 @@ function getChannelId() {
   const html = document.documentElement.innerHTML;
 
   // Look for the channel ID pattern: "UC" followed by 22 more characters
-  const match = html.match(/(UC[A-Za-z0-9_-]{22}/);
+  const match = html.match(/(UC[A-Za-z0-9_-]{22})/);
 
   // match[0] is the full hit; match[1] is the part in the capture group
   return match ? match[1] : null;
