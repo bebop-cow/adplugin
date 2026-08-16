@@ -1,12 +1,11 @@
-async function checkAndBlock() {
-  const player = document.querySelector(".html5-video-player");
-  if (!player || !player.classList.contains("ad-showing")) return;  // no ad, nothing to do
+// ==UserScript==
+// @name         Selective YouTube Ad Skipper
+// @match        https://www.youtube.com/*
+// @grant        none
+// ==/UserScript==
 
-  const channelId = getChannelId();
-  if (channelId && await isIndie(channelId)) return;  // indie → let it run
 
-  skipAd();  // everyone else → skip
-}
+const LIST_URL = "https://github.com/bebop-cow/adplugin/blob/main/plugin.js";
 
 function getChannelId() {
   // Grab the whole page's HTML as one big string
@@ -18,8 +17,6 @@ function getChannelId() {
   // match[0] is the full hit; match[1] is the part in the capture group
   return match ? match[1] : null;
 }
-
-const LIST_URL = "https://raw.githubusercontent.com/you/your-repo/main/indie.json";
 
 async function isIndie(channelId) {
   const response = await fetch(LIST_URL);
@@ -33,6 +30,16 @@ function skipAd() {
 
   const skipBtn = document.querySelector(".ytp-skip-ad-button, .ytp-ad-skip-button");
   if (skipBtn) skipBtn.click();   // only clicks if the button actually exists
+}
+
+async function checkAndBlock() {
+  const player = document.querySelector(".html5-video-player");
+  if (!player || !player.classList.contains("ad-showing")) return;  // no ad, nothing to do
+
+  const channelId = getChannelId();
+  if (channelId && await isIndie(channelId)) return;  // indie → let it run
+
+  skipAd();  // everyone else → skip
 }
 
 window.addEventListener("yt-navigate-finish", checkAndBlock);
