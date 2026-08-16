@@ -5,7 +5,7 @@
 // ==/UserScript==
 
 
-const LIST_URL = "https://github.com/bebop-cow/adplugin/blob/main/plugin.js";
+const LIST_URL = "https://raw.githubusercontent.com/bebop-cow/adplugin/main/indie.json";
 
 function getChannelId() {
   // Grab the whole page's HTML as one big string
