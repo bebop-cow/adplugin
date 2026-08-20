@@ -11,8 +11,13 @@ let cachedList = null;   // outside isIndie — what should it start as?
 
 async function isIndie(channelId) {
   if (cachedList === null) {                                   // when should we fetch?
-    const response = await fetch(LIST_URL);
-    cachedList = await response.json();          // fill the cache
+   try{
+      const response = await fetch(LIST_URL);
+      cachedList = await response.json();          // fill the cache
+    } catch (error) {
+      console.log("[adskip] list unreachable, skipping ad");
+      return false;
+    }
   }
   return cachedList.includes(channelId);
 }
