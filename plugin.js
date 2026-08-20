@@ -7,6 +7,15 @@
 
 const LIST_URL = "https://raw.githubusercontent.com/bebop-cow/adplugin/main/indie.json";
 
+let cachedList = null;   // outside isIndie — what should it start as?
+
+async function isIndie(channelId) {
+  if (cachedList === null) {                                   // when should we fetch?
+    const response = await fetch(LIST_URL);
+    cachedList = await response.json();          // fill the cache
+  }
+  return cachedList.includes(channelId);
+}
 function getChannelId() {
   // Grab the whole page's HTML as one big string
   const html = document.documentElement.innerHTML;
