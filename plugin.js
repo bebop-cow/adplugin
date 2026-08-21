@@ -25,6 +25,11 @@ function getChannelId() {
   // Grab the whole page's HTML as one big string
   const html = document.documentElement.innerHTML;
 
+  // TEMP diagnostic: how many distinct UC ids are on this page, and which is first?
+  const all = html.match(/UC[A-Za-z0-9_-]{22}/g);   // note the /g — finds ALL, not just first
+  console.log("[adskip] total UC ids on page:", all ? all.length : 0);
+  console.log("[adskip] first one:", all ? all[0] : null);
+
   // Look for the channel ID pattern: "UC" followed by 22 more characters
   const match = html.match(/(UC[A-Za-z0-9_-]{22})/);
 
@@ -32,15 +37,6 @@ function getChannelId() {
   return match ? match[1] : null;
 }
 
-let cachedList = null;   // lives outside — persists between calls
-
-async function isIndie(channelId) {
-  if (cachedList === null) {                    // first time only
-    const response = await fetch(LIST_URL);
-    cachedList = await response.json();          // remember it
-  }
-  return cachedList.includes(channelId);         // every later call: instant
-}
 
 function skipAd() {
   const video = document.querySelector("video");

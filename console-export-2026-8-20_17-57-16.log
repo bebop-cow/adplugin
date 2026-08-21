@@ -1,0 +1,145 @@
+Content-Security-Policy warnings 4
+LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable. m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:10158:9
+Content-Security-Policy: Ignoring “'unsafe-inline'” within script-src: nonce-source or hash-source specified ServiceLogin
+This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. ServiceLogin
+Content-Security-Policy: The page’s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: “script-src 'nonce-sdkoV21qzTGZbMnDaCULJg' 'unsafe-inline'”. Consider using a hash ('sha256-A1oIGeYpojhzuITnp9RSQmhd05cXfLQDYLoh0atr7mQ=') or a nonce. content.js:74:196
+Content-Security-Policy: The page’s settings blocked an inline script (script-src-elem) from being executed because it violates the following directive: “script-src 'nonce-sdkoV21qzTGZbMnDaCULJg' 'unsafe-inline'”. Consider using a hash ('sha256-2T6ZVTOhsjnSxWVReSf9LYIkYHEP6dpVnJY5nuPHe9s=') or a nonce. content.js:74:196
+Partitioned cookie or storage access was provided to “https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en” because it is loaded in the third-party context and dynamic state partitioning is enabled. content.js:76:354
+Cookie warnings 13
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:17920
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:32628
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:32838
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:35733
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:40266
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:41536
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:41653
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:41844
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:42015
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js:616:56864
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:56864
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:35733
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:32838
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:40266
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:1:93
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval:1:93
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval:1:109
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval line 1 > eval:1:109
+Fingerprinting Protection is altering screen.availWidth and screen.availHeight. These values may not match your actual screen dimensions. This protection helps prevent websites building a fingerprint that can be used to track users. Learn more: https://support.mozilla.org/kb/firefox-protection-against-fingerprinting m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:7216:500
+MouseEvent.mozPressure is deprecated. Use PointerEvent.pressure instead. m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:7598:60
+MouseEvent.mozInputSource is deprecated. Use PointerEvent.pointerType instead. m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:7598:60
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:41536
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:41653
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:41844
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:42015
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval line 1 > eval:1:95
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval line 1 > eval:1:422
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval line 1 > eval:1:111
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval line 1 > eval line 1 > eval:1:111
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval line 1 > eval line 1 > eval:1:95
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval line 616 > eval line 1 > eval line 1 > eval:1:422
+unreachable code after return statement FY79EI1to1cwo84KOoiuJIscsyoCWxu4rdE7DG5odBE.js line 2 > eval:616:17920
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+[adskip] total UC ids on page: 301 Selective-YouTube-Ad-Skipper.user.js:31:11
+[adskip] first one: UCmIAVr3u7GJclyCNJ6Olkc1 Selective-YouTube-Ad-Skipper.user.js:32:11
+Security Error: Content at https://www.youtube.com/results?search_query=mrbeast may not load or link to file:///.
+The resource at “https://i.ytimg.com/generate_204” preloaded with link preload was not used within a few seconds. Make sure all attributes of the preload tag are set correctly. watch
